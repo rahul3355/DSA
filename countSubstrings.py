@@ -1,5 +1,6 @@
 class Solution:
     def countSubstrings(self, s: str) -> int:
+	print("Hell0")
         res = 0
         
         for i in range(len(s)):
