@@ -26,4 +26,32 @@ class TreeNode:
 		if len(self.children):
 			for child in self.children:	
 				child.print_tree()
+
+
+def build_exercise_tree():
+	root = TreeNode("Sessions")
+
+	pull = TreeNode("Pull")
+	pull.add_child(TreeNode("Barbell row"))
+	pull.add_child(TreeNode("Lat Pulldown"))
+
+	push = TreeNode("Push")
+	push.add_child(TreeNode("Push-Ups"))
+	push.add_child(TreeNode("Bench Press"))
+
+	legs = TreeNode("Legs")
+	legs.add_child(TreeNode("Squats"))
+	legs.add_child(TreeNode("Lunges"))
+
+	root.add_child(pull)
+	root.add_child(push)
+	root.add_child(legs)
+		
+	return root
+
+if __name__ == "__main__":
+	b = build_exercise_tree()
+	b.print_tree()
+
+
 		
