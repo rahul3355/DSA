@@ -1,3 +1,5 @@
 n = int(input("Enter number: "))
-x = chr(n + 96)
-print(x)
+mul = 1
+for i in range(n,1,-1):
+	mul *= i
+print(mul)
