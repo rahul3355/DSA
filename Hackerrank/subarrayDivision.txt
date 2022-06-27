@@ -1,3 +1,7 @@
 n = int(input("Enter n: "))
-m = int(input("Enter m: "))
-s = int(input("Enter s: "))
+arr = []
+for i in range(n):
+	x = int(input())
+	arr.append(x)
+
+print(arr)
