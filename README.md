@@ -1,2 +1,2 @@
 # DSA
-A folder to track my DSA progress.
+Tracking my DSA progress.
