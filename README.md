@@ -1,5 +1,4 @@
 # DSA
-<<<<<<< HEAD
 A folder to track my DSA progress.
 
 			Complexity of Python Operations
@@ -510,6 +509,3 @@ implementation for a data structure. We need to know what problem we are
 solving (the complexity classes of all the operations in various
 implementations and HOW OFTEN we must do these operations) to choose the most
 efficient implementation for solving the problem.
-=======
-Tracking my DSA progress.
->>>>>>> ef23a9c96fa3a6fa387b00add4b0c431e5b8fc05
