@@ -16,4 +16,3 @@ def sortedSquareArray(array):
             smallerIdx -= 1
         
     return sortedSquareArray
-
