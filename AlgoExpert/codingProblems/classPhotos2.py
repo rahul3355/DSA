@@ -1,6 +1,6 @@
 def classPhotos(redShirtHeights, blueShirtHeights):
     
-    # o(nlog(n)) time | O(1) space
+    # O(nlog(n)) time | O(1) space
 
     redShirtHeights.sort()
     blueShirtHeights.sort()
