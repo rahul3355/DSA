@@ -1,0 +1,5 @@
+1. define row, col length
+2. create two sets for zero_rows, zero_cols
+3. if any element of matrix is 0, add its co-ordinates to zero_rows, zero_cols. we have to make entire rows and cols 0.
+4. iterate over each column in zero_row and make it 0
+5. iterate over each row in zero_col and make it 0
