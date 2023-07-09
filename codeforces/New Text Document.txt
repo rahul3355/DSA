@@ -1,0 +1,14 @@
+n = int(input())
+
+arr = []
+
+for i in range(n):
+	for j in range(3):
+		in1 = int(input())
+		in2 = int(input())
+		in3 = int(input())
+		arr.append([in1, in2, in3])
+
+print(arr)	
+
+problems = 0
