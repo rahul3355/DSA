@@ -7,7 +7,7 @@ n = "abc"
 print("n = ", n)
 
 n, m = 0, "abc"
-print("n = ", n " m = ", m)
+print("n = ", n, " m = ", m)
 
 n += 1
 print("n = ", n)

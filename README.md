@@ -35,3 +35,5 @@ It comprises of 4 functions :-
 4) invr — For taking space seperated integer variable inputs.
 
 The input = sys.stdin.readline is actually for Faster Inputs, because line reading through System STDIN (Standard Input) is faster in Python.
+
+https://neetcode.io/courses/lessons/python-for-coding-interviews
