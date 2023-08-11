@@ -1,9 +1,12 @@
 class Solution(object):
     def containsDuplicate(self, nums):
-        mapNums = {}
+        hashSet = set()
+
         for num in nums:
-            if num not in mapNums:
-                mapNums[num] = True
-            else:
+            if num in hashSet:
                 return True
+            hashSet.add(num)
+        
         return False
+
+        # O(n) time | O(n) space

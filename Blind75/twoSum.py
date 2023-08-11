@@ -1,11 +1,11 @@
 class Solution(object):
     def twoSum(self, nums, target):
-        
-        numsMap = {}
+        prevMap = {}
 
         for i, n in enumerate(nums):
             diff = target - n
-            if diff in numsMap:
-                return [i, numsMap[diff]]
-            numsMap[n] = i
-        return
+            if diff in prevMap:
+                return [prevMap[diff], i]
+            prevMap[n] = i
+
+        # O(n) time | O(n) space
