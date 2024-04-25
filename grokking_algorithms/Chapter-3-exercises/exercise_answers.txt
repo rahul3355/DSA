@@ -1,0 +1,2 @@
+3.1 = greet2 will be executed first, and when it is done executed, greet2 will be popped and greet function will continue with its execution.
+3.2 = stack overflow, memory will run out, error. 
