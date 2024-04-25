@@ -1,0 +1,5 @@
+2.1 = use a list
+2.2 = use a list
+2.3 = use an array
+2.4 = if memory runs out, we'll need a whole new memory space // if inserted in the middle, we'll need to shift index of all the usernames following its
+2.5 = faster
