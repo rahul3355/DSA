@@ -1,0 +1,4 @@
+maximum number of steps in a list of 128 names for binary search = log(128) = 7
+
+maximum number of steps in a list of 256 names for binary search = log(256) = 8
+
